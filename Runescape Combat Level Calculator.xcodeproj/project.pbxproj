@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EACC2AB24A442B8003AE1DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EACC2AA24A442B8003AE1DA /* AppDelegate.swift */; };
+		6EACC2AD24A442B8003AE1DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EACC2AC24A442B8003AE1DA /* SceneDelegate.swift */; };
+		6EACC2AF24A442B8003AE1DA /* CombatLevelCalculatorContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EACC2AE24A442B8003AE1DA /* CombatLevelCalculatorContainerViewController.swift */; };
+		6EACC2B224A442B8003AE1DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EACC2B024A442B8003AE1DA /* Main.storyboard */; };
+		6EACC2B424A442BA003AE1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EACC2B324A442BA003AE1DA /* Assets.xcassets */; };
+		6EACC2B724A442BA003AE1DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EACC2B524A442BA003AE1DA /* LaunchScreen.storyboard */; };
+		6EACC2C224A442BA003AE1DA /* Runescape_3_ToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EACC2C124A442BA003AE1DA /* Runescape_3_ToolsTests.swift */; };
+		6EACC2CD24A442BA003AE1DA /* Runescape_3_ToolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EACC2CC24A442BA003AE1DA /* Runescape_3_ToolsUITests.swift */; };
+		6EB306A324FF4B7F00B7BDE0 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB306A224FF4B7F00B7BDE0 /* UIColor+Hex.swift */; };
+		7E4EFE15EEA72FD88757CD4D /* Pods_Runescape_3_Tools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A40F5CC92160180726770D /* Pods_Runescape_3_Tools.framework */; };
+		BF919F5A59E9293B3CCE6BB8 /* Pods_Runescape_3_ToolsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430D69A49EB337C1C85AAB9D /* Pods_Runescape_3_ToolsTests.framework */; };
+		D0B26B7CFF9057B0E5ED1484 /* Pods_Runescape_3_Tools_Runescape_3_ToolsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A04AF58E6719F75CAD35BE /* Pods_Runescape_3_Tools_Runescape_3_ToolsUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EACC2BE24A442BA003AE1DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EACC29F24A442B8003AE1DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EACC2A624A442B8003AE1DA;
+			remoteInfo = "Runescape 3 Tools";
+		};
+		6EACC2C924A442BA003AE1DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EACC29F24A442B8003AE1DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EACC2A624A442B8003AE1DA;
+			remoteInfo = "Runescape 3 Tools";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13564797ED8DB459CD6FBB45 /* Pods-Runescape 3 Tools-Runescape 3 ToolsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runescape 3 Tools-Runescape 3 ToolsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F519D803A58C8A0743C152B /* Pods-Runescape 3 ToolsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runescape 3 ToolsTests.debug.xcconfig"; path = "Target Support Files/Pods-Runescape 3 ToolsTests/Pods-Runescape 3 ToolsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		430D69A49EB337C1C85AAB9D /* Pods_Runescape_3_ToolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runescape_3_ToolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		439B3C94817800E27FC92A08 /* Pods-Runescape 3 Tools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runescape 3 Tools.release.xcconfig"; path = "Target Support Files/Pods-Runescape 3 Tools/Pods-Runescape 3 Tools.release.xcconfig"; sourceTree = "<group>"; };
+		6EACC2A724A442B8003AE1DA /* Runescape Combat Level Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Runescape Combat Level Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EACC2AA24A442B8003AE1DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EACC2AC24A442B8003AE1DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6EACC2AE24A442B8003AE1DA /* CombatLevelCalculatorContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombatLevelCalculatorContainerViewController.swift; sourceTree = "<group>"; };
+		6EACC2B124A442B8003AE1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EACC2B324A442BA003AE1DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EACC2B624A442BA003AE1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EACC2B824A442BA003AE1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EACC2BD24A442BA003AE1DA /* Runescape 3 ToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Runescape 3 ToolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EACC2C124A442BA003AE1DA /* Runescape_3_ToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runescape_3_ToolsTests.swift; sourceTree = "<group>"; };
+		6EACC2C324A442BA003AE1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EACC2C824A442BA003AE1DA /* Runescape 3 ToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Runescape 3 ToolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EACC2CC24A442BA003AE1DA /* Runescape_3_ToolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runescape_3_ToolsUITests.swift; sourceTree = "<group>"; };
+		6EACC2CE24A442BA003AE1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB306A224FF4B7F00B7BDE0 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		852AA5D8321379200C5A1F4C /* Pods-Runescape 3 Tools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runescape 3 Tools.debug.xcconfig"; path = "Target Support Files/Pods-Runescape 3 Tools/Pods-Runescape 3 Tools.debug.xcconfig"; sourceTree = "<group>"; };
+		8C076C4CC828E04C0F65D52B /* Pods-Runescape 3 Tools-Runescape 3 ToolsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runescape 3 Tools-Runescape 3 ToolsUITests.release.xcconfig"; path = "Target Support Files/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C60855D03D03DB8310747036 /* Pods-Runescape 3 ToolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runescape 3 ToolsTests.release.xcconfig"; path = "Target Support Files/Pods-Runescape 3 ToolsTests/Pods-Runescape 3 ToolsTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8A40F5CC92160180726770D /* Pods_Runescape_3_Tools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runescape_3_Tools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A04AF58E6719F75CAD35BE /* Pods_Runescape_3_Tools_Runescape_3_ToolsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runescape_3_Tools_Runescape_3_ToolsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EACC2A424A442B8003AE1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4EFE15EEA72FD88757CD4D /* Pods_Runescape_3_Tools.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EACC2BA24A442BA003AE1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF919F5A59E9293B3CCE6BB8 /* Pods_Runescape_3_ToolsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EACC2C524A442BA003AE1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B26B7CFF9057B0E5ED1484 /* Pods_Runescape_3_Tools_Runescape_3_ToolsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64D255D66658C7287AF1674A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8A40F5CC92160180726770D /* Pods_Runescape_3_Tools.framework */,
+				D7A04AF58E6719F75CAD35BE /* Pods_Runescape_3_Tools_Runescape_3_ToolsUITests.framework */,
+				430D69A49EB337C1C85AAB9D /* Pods_Runescape_3_ToolsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EACC29E24A442B8003AE1DA = {
+			isa = PBXGroup;
+			children = (
+				6EACC2A924A442B8003AE1DA /* Runescape 3 Tools */,
+				6EACC2C024A442BA003AE1DA /* Runescape 3 ToolsTests */,
+				6EACC2CB24A442BA003AE1DA /* Runescape 3 ToolsUITests */,
+				6EACC2A824A442B8003AE1DA /* Products */,
+				D851FDAD3FB7C021B278555D /* Pods */,
+				64D255D66658C7287AF1674A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6EACC2A824A442B8003AE1DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EACC2A724A442B8003AE1DA /* Runescape Combat Level Calculator.app */,
+				6EACC2BD24A442BA003AE1DA /* Runescape 3 ToolsTests.xctest */,
+				6EACC2C824A442BA003AE1DA /* Runescape 3 ToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EACC2A924A442B8003AE1DA /* Runescape 3 Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6EACC2AA24A442B8003AE1DA /* AppDelegate.swift */,
+				6EACC2AC24A442B8003AE1DA /* SceneDelegate.swift */,
+				6EACC2AE24A442B8003AE1DA /* CombatLevelCalculatorContainerViewController.swift */,
+				6EACC2B024A442B8003AE1DA /* Main.storyboard */,
+				6EACC2B324A442BA003AE1DA /* Assets.xcassets */,
+				6EACC2B524A442BA003AE1DA /* LaunchScreen.storyboard */,
+				6EACC2B824A442BA003AE1DA /* Info.plist */,
+				6EB306A224FF4B7F00B7BDE0 /* UIColor+Hex.swift */,
+			);
+			path = "Runescape 3 Tools";
+			sourceTree = "<group>";
+		};
+		6EACC2C024A442BA003AE1DA /* Runescape 3 ToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EACC2C124A442BA003AE1DA /* Runescape_3_ToolsTests.swift */,
+				6EACC2C324A442BA003AE1DA /* Info.plist */,
+			);
+			path = "Runescape 3 ToolsTests";
+			sourceTree = "<group>";
+		};
+		6EACC2CB24A442BA003AE1DA /* Runescape 3 ToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EACC2CC24A442BA003AE1DA /* Runescape_3_ToolsUITests.swift */,
+				6EACC2CE24A442BA003AE1DA /* Info.plist */,
+			);
+			path = "Runescape 3 ToolsUITests";
+			sourceTree = "<group>";
+		};
+		D851FDAD3FB7C021B278555D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				852AA5D8321379200C5A1F4C /* Pods-Runescape 3 Tools.debug.xcconfig */,
+				439B3C94817800E27FC92A08 /* Pods-Runescape 3 Tools.release.xcconfig */,
+				13564797ED8DB459CD6FBB45 /* Pods-Runescape 3 Tools-Runescape 3 ToolsUITests.debug.xcconfig */,
+				8C076C4CC828E04C0F65D52B /* Pods-Runescape 3 Tools-Runescape 3 ToolsUITests.release.xcconfig */,
+				2F519D803A58C8A0743C152B /* Pods-Runescape 3 ToolsTests.debug.xcconfig */,
+				C60855D03D03DB8310747036 /* Pods-Runescape 3 ToolsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EACC2A624A442B8003AE1DA /* Runescape 3 Tools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EACC2D124A442BA003AE1DA /* Build configuration list for PBXNativeTarget "Runescape 3 Tools" */;
+			buildPhases = (
+				31DF99E16BB2927793B447E8 /* [CP] Check Pods Manifest.lock */,
+				6EACC2A324A442B8003AE1DA /* Sources */,
+				6EACC2A424A442B8003AE1DA /* Frameworks */,
+				6EACC2A524A442B8003AE1DA /* Resources */,
+				BD741A6C01FC7C12D808B0EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Runescape 3 Tools";
+			productName = "Runescape 3 Tools";
+			productReference = 6EACC2A724A442B8003AE1DA /* Runescape Combat Level Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EACC2BC24A442BA003AE1DA /* Runescape 3 ToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EACC2D424A442BA003AE1DA /* Build configuration list for PBXNativeTarget "Runescape 3 ToolsTests" */;
+			buildPhases = (
+				544AD21AA6677B7F8B44A9B0 /* [CP] Check Pods Manifest.lock */,
+				6EACC2B924A442BA003AE1DA /* Sources */,
+				6EACC2BA24A442BA003AE1DA /* Frameworks */,
+				6EACC2BB24A442BA003AE1DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EACC2BF24A442BA003AE1DA /* PBXTargetDependency */,
+			);
+			name = "Runescape 3 ToolsTests";
+			productName = "Runescape 3 ToolsTests";
+			productReference = 6EACC2BD24A442BA003AE1DA /* Runescape 3 ToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EACC2C724A442BA003AE1DA /* Runescape 3 ToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EACC2D724A442BA003AE1DA /* Build configuration list for PBXNativeTarget "Runescape 3 ToolsUITests" */;
+			buildPhases = (
+				38E9E0BDD5594B260139C6BC /* [CP] Check Pods Manifest.lock */,
+				6EACC2C424A442BA003AE1DA /* Sources */,
+				6EACC2C524A442BA003AE1DA /* Frameworks */,
+				6EACC2C624A442BA003AE1DA /* Resources */,
+				A94B41365700F57C0C027941 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EACC2CA24A442BA003AE1DA /* PBXTargetDependency */,
+			);
+			name = "Runescape 3 ToolsUITests";
+			productName = "Runescape 3 ToolsUITests";
+			productReference = 6EACC2C824A442BA003AE1DA /* Runescape 3 ToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EACC29F24A442B8003AE1DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Sophia Li";
+				TargetAttributes = {
+					6EACC2A624A442B8003AE1DA = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					6EACC2BC24A442BA003AE1DA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6EACC2A624A442B8003AE1DA;
+					};
+					6EACC2C724A442BA003AE1DA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6EACC2A624A442B8003AE1DA;
+					};
+				};
+			};
+			buildConfigurationList = 6EACC2A224A442B8003AE1DA /* Build configuration list for PBXProject "Runescape Combat Level Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EACC29E24A442B8003AE1DA;
+			productRefGroup = 6EACC2A824A442B8003AE1DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EACC2A624A442B8003AE1DA /* Runescape 3 Tools */,
+				6EACC2BC24A442BA003AE1DA /* Runescape 3 ToolsTests */,
+				6EACC2C724A442BA003AE1DA /* Runescape 3 ToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EACC2A524A442B8003AE1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EACC2B724A442BA003AE1DA /* LaunchScreen.storyboard in Resources */,
+				6EACC2B424A442BA003AE1DA /* Assets.xcassets in Resources */,
+				6EACC2B224A442B8003AE1DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EACC2BB24A442BA003AE1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EACC2C624A442BA003AE1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31DF99E16BB2927793B447E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Runescape 3 Tools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38E9E0BDD5594B260139C6BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		544AD21AA6677B7F8B44A9B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Runescape 3 ToolsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A94B41365700F57C0C027941 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD741A6C01FC7C12D808B0EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runescape 3 Tools/Pods-Runescape 3 Tools-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runescape 3 Tools/Pods-Runescape 3 Tools-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runescape 3 Tools/Pods-Runescape 3 Tools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EACC2A324A442B8003AE1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EACC2AF24A442B8003AE1DA /* CombatLevelCalculatorContainerViewController.swift in Sources */,
+				6EB306A324FF4B7F00B7BDE0 /* UIColor+Hex.swift in Sources */,
+				6EACC2AB24A442B8003AE1DA /* AppDelegate.swift in Sources */,
+				6EACC2AD24A442B8003AE1DA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EACC2B924A442BA003AE1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EACC2C224A442BA003AE1DA /* Runescape_3_ToolsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EACC2C424A442BA003AE1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EACC2CD24A442BA003AE1DA /* Runescape_3_ToolsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EACC2BF24A442BA003AE1DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EACC2A624A442B8003AE1DA /* Runescape 3 Tools */;
+			targetProxy = 6EACC2BE24A442BA003AE1DA /* PBXContainerItemProxy */;
+		};
+		6EACC2CA24A442BA003AE1DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EACC2A624A442B8003AE1DA /* Runescape 3 Tools */;
+			targetProxy = 6EACC2C924A442BA003AE1DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EACC2B024A442B8003AE1DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EACC2B124A442B8003AE1DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EACC2B524A442BA003AE1DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EACC2B624A442BA003AE1DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EACC2CF24A442BA003AE1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EACC2D024A442BA003AE1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EACC2D224A442BA003AE1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 852AA5D8321379200C5A1F4C /* Pods-Runescape 3 Tools.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Runescape 3 Tools/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sophia.Runescape-Combat-Level-Calculator";
+				PRODUCT_NAME = "Runescape Combat Level Calculator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EACC2D324A442BA003AE1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 439B3C94817800E27FC92A08 /* Pods-Runescape 3 Tools.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Runescape 3 Tools/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sophia.Runescape-Combat-Level-Calculator";
+				PRODUCT_NAME = "Runescape Combat Level Calculator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6EACC2D524A442BA003AE1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F519D803A58C8A0743C152B /* Pods-Runescape 3 ToolsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Runescape 3 ToolsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sophia.Runescape-3-ToolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runescape 3 Tools.app/Runescape 3 Tools";
+			};
+			name = Debug;
+		};
+		6EACC2D624A442BA003AE1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C60855D03D03DB8310747036 /* Pods-Runescape 3 ToolsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Runescape 3 ToolsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sophia.Runescape-3-ToolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runescape 3 Tools.app/Runescape 3 Tools";
+			};
+			name = Release;
+		};
+		6EACC2D824A442BA003AE1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13564797ED8DB459CD6FBB45 /* Pods-Runescape 3 Tools-Runescape 3 ToolsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Runescape 3 ToolsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sophia.Runescape-3-ToolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Runescape 3 Tools";
+			};
+			name = Debug;
+		};
+		6EACC2D924A442BA003AE1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C076C4CC828E04C0F65D52B /* Pods-Runescape 3 Tools-Runescape 3 ToolsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Runescape 3 ToolsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sophia.Runescape-3-ToolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Runescape 3 Tools";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EACC2A224A442B8003AE1DA /* Build configuration list for PBXProject "Runescape Combat Level Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EACC2CF24A442BA003AE1DA /* Debug */,
+				6EACC2D024A442BA003AE1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EACC2D124A442BA003AE1DA /* Build configuration list for PBXNativeTarget "Runescape 3 Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EACC2D224A442BA003AE1DA /* Debug */,
+				6EACC2D324A442BA003AE1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EACC2D424A442BA003AE1DA /* Build configuration list for PBXNativeTarget "Runescape 3 ToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EACC2D524A442BA003AE1DA /* Debug */,
+				6EACC2D624A442BA003AE1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EACC2D724A442BA003AE1DA /* Build configuration list for PBXNativeTarget "Runescape 3 ToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EACC2D824A442BA003AE1DA /* Debug */,
+				6EACC2D924A442BA003AE1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EACC29F24A442B8003AE1DA /* Project object */;
+}
