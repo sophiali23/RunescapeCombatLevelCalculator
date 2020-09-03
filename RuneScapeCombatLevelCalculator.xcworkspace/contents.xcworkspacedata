@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/sophiali/Documents/Spring 2020 Side Project/Runescape 3 Tools/Runescape Combat Level Calculator.xcodeproj">
+      location = "group:RuneScapeCombatLevelCalculator.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		469B3B27C906E58386E9A32F /* Pods_RuneScapeCombatLevelCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C982D57F1D0BD67720FDBA3 /* Pods_RuneScapeCombatLevelCalculator.framework */; };
+		4912D909F341518DC96B08E2 /* Pods_RuneScapeCombatLevelCalculator_RuneScapeCombatLevelCalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E688D9C69C0471C211CA8B32 /* Pods_RuneScapeCombatLevelCalculator_RuneScapeCombatLevelCalculatorUITests.framework */; };
 		6EACC2AB24A442B8003AE1DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EACC2AA24A442B8003AE1DA /* AppDelegate.swift */; };
 		6EACC2AD24A442B8003AE1DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EACC2AC24A442B8003AE1DA /* SceneDelegate.swift */; };
-		6EACC2AF24A442B8003AE1DA /* CombatLevelCalculatorContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EACC2AE24A442B8003AE1DA /* CombatLevelCalculatorContainerViewController.swift */; };
+		6EACC2AF24A442B8003AE1DA /* RSCombatLevelCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EACC2AE24A442B8003AE1DA /* RSCombatLevelCalculatorViewController.swift */; };
 		6EACC2B224A442B8003AE1DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EACC2B024A442B8003AE1DA /* Main.storyboard */; };
 		6EACC2B424A442BA003AE1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EACC2B324A442BA003AE1DA /* Assets.xcassets */; };
 		6EACC2B724A442BA003AE1DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EACC2B524A442BA003AE1DA /* LaunchScreen.storyboard */; };
-		6EACC2C224A442BA003AE1DA /* Runescape_3_ToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EACC2C124A442BA003AE1DA /* Runescape_3_ToolsTests.swift */; };
-		6EACC2CD24A442BA003AE1DA /* Runescape_3_ToolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EACC2CC24A442BA003AE1DA /* Runescape_3_ToolsUITests.swift */; };
+		6EACC2C224A442BA003AE1DA /* RuneScapeCombatLevelCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EACC2C124A442BA003AE1DA /* RuneScapeCombatLevelCalculatorTests.swift */; };
+		6EACC2CD24A442BA003AE1DA /* RuneScapeCombatLevelCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EACC2CC24A442BA003AE1DA /* RuneScapeCombatLevelCalculatorUITests.swift */; };
 		6EB306A324FF4B7F00B7BDE0 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB306A224FF4B7F00B7BDE0 /* UIColor+Hex.swift */; };
-		7E4EFE15EEA72FD88757CD4D /* Pods_Runescape_3_Tools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A40F5CC92160180726770D /* Pods_Runescape_3_Tools.framework */; };
-		BF919F5A59E9293B3CCE6BB8 /* Pods_Runescape_3_ToolsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430D69A49EB337C1C85AAB9D /* Pods_Runescape_3_ToolsTests.framework */; };
-		D0B26B7CFF9057B0E5ED1484 /* Pods_Runescape_3_Tools_Runescape_3_ToolsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A04AF58E6719F75CAD35BE /* Pods_Runescape_3_Tools_Runescape_3_ToolsUITests.framework */; };
+		CDEF1C0238E74DCA0229A5A8 /* Pods_RuneScapeCombatLevelCalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2080FF7CE813310C96C3F9A2 /* Pods_RuneScapeCombatLevelCalculatorTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,30 +39,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		023C8961CFC5AF8C4C0198F7 /* Pods-RuneScapeCombatLevelCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuneScapeCombatLevelCalculator.debug.xcconfig"; path = "Target Support Files/Pods-RuneScapeCombatLevelCalculator/Pods-RuneScapeCombatLevelCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		10CE12C3DAF6309B787BD7B1 /* Pods-RuneScapeCombatLevelCalculator-Runescape 3 ToolsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuneScapeCombatLevelCalculator-Runescape 3 ToolsUITests.release.xcconfig"; path = "Target Support Files/Pods-RuneScapeCombatLevelCalculator-Runescape 3 ToolsUITests/Pods-RuneScapeCombatLevelCalculator-Runescape 3 ToolsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		13564797ED8DB459CD6FBB45 /* Pods-Runescape 3 Tools-Runescape 3 ToolsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runescape 3 Tools-Runescape 3 ToolsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2080FF7CE813310C96C3F9A2 /* Pods_RuneScapeCombatLevelCalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RuneScapeCombatLevelCalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F519D803A58C8A0743C152B /* Pods-Runescape 3 ToolsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runescape 3 ToolsTests.debug.xcconfig"; path = "Target Support Files/Pods-Runescape 3 ToolsTests/Pods-Runescape 3 ToolsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		430D69A49EB337C1C85AAB9D /* Pods_Runescape_3_ToolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runescape_3_ToolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		439B3C94817800E27FC92A08 /* Pods-Runescape 3 Tools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runescape 3 Tools.release.xcconfig"; path = "Target Support Files/Pods-Runescape 3 Tools/Pods-Runescape 3 Tools.release.xcconfig"; sourceTree = "<group>"; };
-		6EACC2A724A442B8003AE1DA /* Runescape Combat Level Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Runescape Combat Level Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C51AB6AC15206F6A8B0DA0 /* Pods-RuneScapeCombatLevelCalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuneScapeCombatLevelCalculatorTests.release.xcconfig"; path = "Target Support Files/Pods-RuneScapeCombatLevelCalculatorTests/Pods-RuneScapeCombatLevelCalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		6EACC2A724A442B8003AE1DA /* RuneScapeCombatLevelCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuneScapeCombatLevelCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EACC2AA24A442B8003AE1DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EACC2AC24A442B8003AE1DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6EACC2AE24A442B8003AE1DA /* CombatLevelCalculatorContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombatLevelCalculatorContainerViewController.swift; sourceTree = "<group>"; };
+		6EACC2AE24A442B8003AE1DA /* RSCombatLevelCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCombatLevelCalculatorViewController.swift; sourceTree = "<group>"; };
 		6EACC2B124A442B8003AE1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6EACC2B324A442BA003AE1DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EACC2B624A442BA003AE1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EACC2B824A442BA003AE1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6EACC2BD24A442BA003AE1DA /* Runescape 3 ToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Runescape 3 ToolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EACC2C124A442BA003AE1DA /* Runescape_3_ToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runescape_3_ToolsTests.swift; sourceTree = "<group>"; };
+		6EACC2BD24A442BA003AE1DA /* RuneScapeCombatLevelCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuneScapeCombatLevelCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EACC2C124A442BA003AE1DA /* RuneScapeCombatLevelCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneScapeCombatLevelCalculatorTests.swift; sourceTree = "<group>"; };
 		6EACC2C324A442BA003AE1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6EACC2C824A442BA003AE1DA /* Runescape 3 ToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Runescape 3 ToolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EACC2CC24A442BA003AE1DA /* Runescape_3_ToolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runescape_3_ToolsUITests.swift; sourceTree = "<group>"; };
+		6EACC2C824A442BA003AE1DA /* RuneScapeCombatLevelCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuneScapeCombatLevelCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EACC2CC24A442BA003AE1DA /* RuneScapeCombatLevelCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneScapeCombatLevelCalculatorUITests.swift; sourceTree = "<group>"; };
 		6EACC2CE24A442BA003AE1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EB306A224FF4B7F00B7BDE0 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		7C982D57F1D0BD67720FDBA3 /* Pods_RuneScapeCombatLevelCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RuneScapeCombatLevelCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		852AA5D8321379200C5A1F4C /* Pods-Runescape 3 Tools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runescape 3 Tools.debug.xcconfig"; path = "Target Support Files/Pods-Runescape 3 Tools/Pods-Runescape 3 Tools.debug.xcconfig"; sourceTree = "<group>"; };
 		8C076C4CC828E04C0F65D52B /* Pods-Runescape 3 Tools-Runescape 3 ToolsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runescape 3 Tools-Runescape 3 ToolsUITests.release.xcconfig"; path = "Target Support Files/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ACFE09DE45568EB31FAF1A52 /* Pods-RuneScapeCombatLevelCalculator-Runescape 3 ToolsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuneScapeCombatLevelCalculator-Runescape 3 ToolsUITests.debug.xcconfig"; path = "Target Support Files/Pods-RuneScapeCombatLevelCalculator-Runescape 3 ToolsUITests/Pods-RuneScapeCombatLevelCalculator-Runescape 3 ToolsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B714FD606473A08FD5D52E68 /* Pods-RuneScapeCombatLevelCalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuneScapeCombatLevelCalculatorTests.debug.xcconfig"; path = "Target Support Files/Pods-RuneScapeCombatLevelCalculatorTests/Pods-RuneScapeCombatLevelCalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B82AE433565205C7527FDACF /* Pods-RuneScapeCombatLevelCalculator-RuneScapeCombatLevelCalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuneScapeCombatLevelCalculator-RuneScapeCombatLevelCalculatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-RuneScapeCombatLevelCalculator-RuneScapeCombatLevelCalculatorUITests/Pods-RuneScapeCombatLevelCalculator-RuneScapeCombatLevelCalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9B59DA582C14BA83DF384D0 /* Pods-RuneScapeCombatLevelCalculator-RuneScapeCombatLevelCalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuneScapeCombatLevelCalculator-RuneScapeCombatLevelCalculatorUITests.release.xcconfig"; path = "Target Support Files/Pods-RuneScapeCombatLevelCalculator-RuneScapeCombatLevelCalculatorUITests/Pods-RuneScapeCombatLevelCalculator-RuneScapeCombatLevelCalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C60855D03D03DB8310747036 /* Pods-Runescape 3 ToolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runescape 3 ToolsTests.release.xcconfig"; path = "Target Support Files/Pods-Runescape 3 ToolsTests/Pods-Runescape 3 ToolsTests.release.xcconfig"; sourceTree = "<group>"; };
-		C8A40F5CC92160180726770D /* Pods_Runescape_3_Tools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runescape_3_Tools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7A04AF58E6719F75CAD35BE /* Pods_Runescape_3_Tools_Runescape_3_ToolsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runescape_3_Tools_Runescape_3_ToolsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1EB62ECCEEA51D913D79571 /* Pods-RuneScapeCombatLevelCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuneScapeCombatLevelCalculator.release.xcconfig"; path = "Target Support Files/Pods-RuneScapeCombatLevelCalculator/Pods-RuneScapeCombatLevelCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		E688D9C69C0471C211CA8B32 /* Pods_RuneScapeCombatLevelCalculator_RuneScapeCombatLevelCalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RuneScapeCombatLevelCalculator_RuneScapeCombatLevelCalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E4EFE15EEA72FD88757CD4D /* Pods_Runescape_3_Tools.framework in Frameworks */,
+				469B3B27C906E58386E9A32F /* Pods_RuneScapeCombatLevelCalculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF919F5A59E9293B3CCE6BB8 /* Pods_Runescape_3_ToolsTests.framework in Frameworks */,
+				CDEF1C0238E74DCA0229A5A8 /* Pods_RuneScapeCombatLevelCalculatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0B26B7CFF9057B0E5ED1484 /* Pods_Runescape_3_Tools_Runescape_3_ToolsUITests.framework in Frameworks */,
+				4912D909F341518DC96B08E2 /* Pods_RuneScapeCombatLevelCalculator_RuneScapeCombatLevelCalculatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,9 +104,9 @@
 		64D255D66658C7287AF1674A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C8A40F5CC92160180726770D /* Pods_Runescape_3_Tools.framework */,
-				D7A04AF58E6719F75CAD35BE /* Pods_Runescape_3_Tools_Runescape_3_ToolsUITests.framework */,
-				430D69A49EB337C1C85AAB9D /* Pods_Runescape_3_ToolsTests.framework */,
+				7C982D57F1D0BD67720FDBA3 /* Pods_RuneScapeCombatLevelCalculator.framework */,
+				E688D9C69C0471C211CA8B32 /* Pods_RuneScapeCombatLevelCalculator_RuneScapeCombatLevelCalculatorUITests.framework */,
+				2080FF7CE813310C96C3F9A2 /* Pods_RuneScapeCombatLevelCalculatorTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -106,9 +114,9 @@
 		6EACC29E24A442B8003AE1DA = {
 			isa = PBXGroup;
 			children = (
-				6EACC2A924A442B8003AE1DA /* Runescape 3 Tools */,
-				6EACC2C024A442BA003AE1DA /* Runescape 3 ToolsTests */,
-				6EACC2CB24A442BA003AE1DA /* Runescape 3 ToolsUITests */,
+				6EACC2A924A442B8003AE1DA /* RuneScapeCombatLevelCalculator */,
+				6EACC2C024A442BA003AE1DA /* RuneScapeCombatLevelCalculatorTests */,
+				6EACC2CB24A442BA003AE1DA /* RuneScapeCombatLevelCalculatorUITests */,
 				6EACC2A824A442B8003AE1DA /* Products */,
 				D851FDAD3FB7C021B278555D /* Pods */,
 				64D255D66658C7287AF1674A /* Frameworks */,
@@ -118,44 +126,44 @@
 		6EACC2A824A442B8003AE1DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6EACC2A724A442B8003AE1DA /* Runescape Combat Level Calculator.app */,
-				6EACC2BD24A442BA003AE1DA /* Runescape 3 ToolsTests.xctest */,
-				6EACC2C824A442BA003AE1DA /* Runescape 3 ToolsUITests.xctest */,
+				6EACC2A724A442B8003AE1DA /* RuneScapeCombatLevelCalculator.app */,
+				6EACC2BD24A442BA003AE1DA /* RuneScapeCombatLevelCalculatorTests.xctest */,
+				6EACC2C824A442BA003AE1DA /* RuneScapeCombatLevelCalculatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6EACC2A924A442B8003AE1DA /* Runescape 3 Tools */ = {
+		6EACC2A924A442B8003AE1DA /* RuneScapeCombatLevelCalculator */ = {
 			isa = PBXGroup;
 			children = (
 				6EACC2AA24A442B8003AE1DA /* AppDelegate.swift */,
 				6EACC2AC24A442B8003AE1DA /* SceneDelegate.swift */,
-				6EACC2AE24A442B8003AE1DA /* CombatLevelCalculatorContainerViewController.swift */,
+				6EACC2AE24A442B8003AE1DA /* RSCombatLevelCalculatorViewController.swift */,
 				6EACC2B024A442B8003AE1DA /* Main.storyboard */,
 				6EACC2B324A442BA003AE1DA /* Assets.xcassets */,
 				6EACC2B524A442BA003AE1DA /* LaunchScreen.storyboard */,
 				6EACC2B824A442BA003AE1DA /* Info.plist */,
 				6EB306A224FF4B7F00B7BDE0 /* UIColor+Hex.swift */,
 			);
-			path = "Runescape 3 Tools";
+			path = RuneScapeCombatLevelCalculator;
 			sourceTree = "<group>";
 		};
-		6EACC2C024A442BA003AE1DA /* Runescape 3 ToolsTests */ = {
+		6EACC2C024A442BA003AE1DA /* RuneScapeCombatLevelCalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				6EACC2C124A442BA003AE1DA /* Runescape_3_ToolsTests.swift */,
+				6EACC2C124A442BA003AE1DA /* RuneScapeCombatLevelCalculatorTests.swift */,
 				6EACC2C324A442BA003AE1DA /* Info.plist */,
 			);
-			path = "Runescape 3 ToolsTests";
+			path = RuneScapeCombatLevelCalculatorTests;
 			sourceTree = "<group>";
 		};
-		6EACC2CB24A442BA003AE1DA /* Runescape 3 ToolsUITests */ = {
+		6EACC2CB24A442BA003AE1DA /* RuneScapeCombatLevelCalculatorUITests */ = {
 			isa = PBXGroup;
 			children = (
-				6EACC2CC24A442BA003AE1DA /* Runescape_3_ToolsUITests.swift */,
+				6EACC2CC24A442BA003AE1DA /* RuneScapeCombatLevelCalculatorUITests.swift */,
 				6EACC2CE24A442BA003AE1DA /* Info.plist */,
 			);
-			path = "Runescape 3 ToolsUITests";
+			path = RuneScapeCombatLevelCalculatorUITests;
 			sourceTree = "<group>";
 		};
 		D851FDAD3FB7C021B278555D /* Pods */ = {
@@ -167,6 +175,14 @@
 				8C076C4CC828E04C0F65D52B /* Pods-Runescape 3 Tools-Runescape 3 ToolsUITests.release.xcconfig */,
 				2F519D803A58C8A0743C152B /* Pods-Runescape 3 ToolsTests.debug.xcconfig */,
 				C60855D03D03DB8310747036 /* Pods-Runescape 3 ToolsTests.release.xcconfig */,
+				023C8961CFC5AF8C4C0198F7 /* Pods-RuneScapeCombatLevelCalculator.debug.xcconfig */,
+				D1EB62ECCEEA51D913D79571 /* Pods-RuneScapeCombatLevelCalculator.release.xcconfig */,
+				ACFE09DE45568EB31FAF1A52 /* Pods-RuneScapeCombatLevelCalculator-Runescape 3 ToolsUITests.debug.xcconfig */,
+				10CE12C3DAF6309B787BD7B1 /* Pods-RuneScapeCombatLevelCalculator-Runescape 3 ToolsUITests.release.xcconfig */,
+				B82AE433565205C7527FDACF /* Pods-RuneScapeCombatLevelCalculator-RuneScapeCombatLevelCalculatorUITests.debug.xcconfig */,
+				B9B59DA582C14BA83DF384D0 /* Pods-RuneScapeCombatLevelCalculator-RuneScapeCombatLevelCalculatorUITests.release.xcconfig */,
+				B714FD606473A08FD5D52E68 /* Pods-RuneScapeCombatLevelCalculatorTests.debug.xcconfig */,
+				44C51AB6AC15206F6A8B0DA0 /* Pods-RuneScapeCombatLevelCalculatorTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -174,9 +190,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6EACC2A624A442B8003AE1DA /* Runescape 3 Tools */ = {
+		6EACC2A624A442B8003AE1DA /* RuneScapeCombatLevelCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EACC2D124A442BA003AE1DA /* Build configuration list for PBXNativeTarget "Runescape 3 Tools" */;
+			buildConfigurationList = 6EACC2D124A442BA003AE1DA /* Build configuration list for PBXNativeTarget "RuneScapeCombatLevelCalculator" */;
 			buildPhases = (
 				31DF99E16BB2927793B447E8 /* [CP] Check Pods Manifest.lock */,
 				6EACC2A324A442B8003AE1DA /* Sources */,
@@ -188,14 +204,14 @@
 			);
 			dependencies = (
 			);
-			name = "Runescape 3 Tools";
+			name = RuneScapeCombatLevelCalculator;
 			productName = "Runescape 3 Tools";
-			productReference = 6EACC2A724A442B8003AE1DA /* Runescape Combat Level Calculator.app */;
+			productReference = 6EACC2A724A442B8003AE1DA /* RuneScapeCombatLevelCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6EACC2BC24A442BA003AE1DA /* Runescape 3 ToolsTests */ = {
+		6EACC2BC24A442BA003AE1DA /* RuneScapeCombatLevelCalculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EACC2D424A442BA003AE1DA /* Build configuration list for PBXNativeTarget "Runescape 3 ToolsTests" */;
+			buildConfigurationList = 6EACC2D424A442BA003AE1DA /* Build configuration list for PBXNativeTarget "RuneScapeCombatLevelCalculatorTests" */;
 			buildPhases = (
 				544AD21AA6677B7F8B44A9B0 /* [CP] Check Pods Manifest.lock */,
 				6EACC2B924A442BA003AE1DA /* Sources */,
@@ -207,14 +223,14 @@
 			dependencies = (
 				6EACC2BF24A442BA003AE1DA /* PBXTargetDependency */,
 			);
-			name = "Runescape 3 ToolsTests";
+			name = RuneScapeCombatLevelCalculatorTests;
 			productName = "Runescape 3 ToolsTests";
-			productReference = 6EACC2BD24A442BA003AE1DA /* Runescape 3 ToolsTests.xctest */;
+			productReference = 6EACC2BD24A442BA003AE1DA /* RuneScapeCombatLevelCalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6EACC2C724A442BA003AE1DA /* Runescape 3 ToolsUITests */ = {
+		6EACC2C724A442BA003AE1DA /* RuneScapeCombatLevelCalculatorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EACC2D724A442BA003AE1DA /* Build configuration list for PBXNativeTarget "Runescape 3 ToolsUITests" */;
+			buildConfigurationList = 6EACC2D724A442BA003AE1DA /* Build configuration list for PBXNativeTarget "RuneScapeCombatLevelCalculatorUITests" */;
 			buildPhases = (
 				38E9E0BDD5594B260139C6BC /* [CP] Check Pods Manifest.lock */,
 				6EACC2C424A442BA003AE1DA /* Sources */,
@@ -227,9 +243,9 @@
 			dependencies = (
 				6EACC2CA24A442BA003AE1DA /* PBXTargetDependency */,
 			);
-			name = "Runescape 3 ToolsUITests";
+			name = RuneScapeCombatLevelCalculatorUITests;
 			productName = "Runescape 3 ToolsUITests";
-			productReference = 6EACC2C824A442BA003AE1DA /* Runescape 3 ToolsUITests.xctest */;
+			productReference = 6EACC2C824A442BA003AE1DA /* RuneScapeCombatLevelCalculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -247,7 +263,6 @@
 					};
 					6EACC2BC24A442BA003AE1DA = {
 						CreatedOnToolsVersion = 11.5;
-						TestTargetID = 6EACC2A624A442B8003AE1DA;
 					};
 					6EACC2C724A442BA003AE1DA = {
 						CreatedOnToolsVersion = 11.5;
@@ -255,7 +270,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6EACC2A224A442B8003AE1DA /* Build configuration list for PBXProject "Runescape Combat Level Calculator" */;
+			buildConfigurationList = 6EACC2A224A442B8003AE1DA /* Build configuration list for PBXProject "RuneScapeCombatLevelCalculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -268,9 +283,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6EACC2A624A442B8003AE1DA /* Runescape 3 Tools */,
-				6EACC2BC24A442BA003AE1DA /* Runescape 3 ToolsTests */,
-				6EACC2C724A442BA003AE1DA /* Runescape 3 ToolsUITests */,
+				6EACC2A624A442B8003AE1DA /* RuneScapeCombatLevelCalculator */,
+				6EACC2BC24A442BA003AE1DA /* RuneScapeCombatLevelCalculatorTests */,
+				6EACC2C724A442BA003AE1DA /* RuneScapeCombatLevelCalculatorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -318,7 +333,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Runescape 3 Tools-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RuneScapeCombatLevelCalculator-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -340,7 +355,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RuneScapeCombatLevelCalculator-RuneScapeCombatLevelCalculatorUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -362,7 +377,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Runescape 3 ToolsTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RuneScapeCombatLevelCalculatorTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -375,15 +390,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RuneScapeCombatLevelCalculator-RuneScapeCombatLevelCalculatorUITests/Pods-RuneScapeCombatLevelCalculator-RuneScapeCombatLevelCalculatorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RuneScapeCombatLevelCalculator-RuneScapeCombatLevelCalculatorUITests/Pods-RuneScapeCombatLevelCalculator-RuneScapeCombatLevelCalculatorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests/Pods-Runescape 3 Tools-Runescape 3 ToolsUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RuneScapeCombatLevelCalculator-RuneScapeCombatLevelCalculatorUITests/Pods-RuneScapeCombatLevelCalculator-RuneScapeCombatLevelCalculatorUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BD741A6C01FC7C12D808B0EB /* [CP] Embed Pods Frameworks */ = {
@@ -392,15 +407,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runescape 3 Tools/Pods-Runescape 3 Tools-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RuneScapeCombatLevelCalculator/Pods-RuneScapeCombatLevelCalculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runescape 3 Tools/Pods-Runescape 3 Tools-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RuneScapeCombatLevelCalculator/Pods-RuneScapeCombatLevelCalculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runescape 3 Tools/Pods-Runescape 3 Tools-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RuneScapeCombatLevelCalculator/Pods-RuneScapeCombatLevelCalculator-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -410,7 +425,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EACC2AF24A442B8003AE1DA /* CombatLevelCalculatorContainerViewController.swift in Sources */,
+				6EACC2AF24A442B8003AE1DA /* RSCombatLevelCalculatorViewController.swift in Sources */,
 				6EB306A324FF4B7F00B7BDE0 /* UIColor+Hex.swift in Sources */,
 				6EACC2AB24A442B8003AE1DA /* AppDelegate.swift in Sources */,
 				6EACC2AD24A442B8003AE1DA /* SceneDelegate.swift in Sources */,
@@ -421,7 +436,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EACC2C224A442BA003AE1DA /* Runescape_3_ToolsTests.swift in Sources */,
+				6EACC2C224A442BA003AE1DA /* RuneScapeCombatLevelCalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +444,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EACC2CD24A442BA003AE1DA /* Runescape_3_ToolsUITests.swift in Sources */,
+				6EACC2CD24A442BA003AE1DA /* RuneScapeCombatLevelCalculatorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,12 +453,12 @@
 /* Begin PBXTargetDependency section */
 		6EACC2BF24A442BA003AE1DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6EACC2A624A442B8003AE1DA /* Runescape 3 Tools */;
+			target = 6EACC2A624A442B8003AE1DA /* RuneScapeCombatLevelCalculator */;
 			targetProxy = 6EACC2BE24A442BA003AE1DA /* PBXContainerItemProxy */;
 		};
 		6EACC2CA24A442BA003AE1DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6EACC2A624A442B8003AE1DA /* Runescape 3 Tools */;
+			target = 6EACC2A624A442B8003AE1DA /* RuneScapeCombatLevelCalculator */;
 			targetProxy = 6EACC2C924A442BA003AE1DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -584,17 +599,17 @@
 		};
 		6EACC2D224A442BA003AE1DA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 852AA5D8321379200C5A1F4C /* Pods-Runescape 3 Tools.debug.xcconfig */;
+			baseConfigurationReference = 023C8961CFC5AF8C4C0198F7 /* Pods-RuneScapeCombatLevelCalculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Runescape 3 Tools/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/RuneScapeCombatLevelCalculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Sophia.Runescape-Combat-Level-Calculator";
-				PRODUCT_NAME = "Runescape Combat Level Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = Sophia.RuneScapeCombatLevelCalculator;
+				PRODUCT_NAME = RuneScapeCombatLevelCalculator;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -602,17 +617,17 @@
 		};
 		6EACC2D324A442BA003AE1DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 439B3C94817800E27FC92A08 /* Pods-Runescape 3 Tools.release.xcconfig */;
+			baseConfigurationReference = D1EB62ECCEEA51D913D79571 /* Pods-RuneScapeCombatLevelCalculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Runescape 3 Tools/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/RuneScapeCombatLevelCalculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Sophia.Runescape-Combat-Level-Calculator";
-				PRODUCT_NAME = "Runescape Combat Level Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = Sophia.RuneScapeCombatLevelCalculator;
+				PRODUCT_NAME = RuneScapeCombatLevelCalculator;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -620,92 +635,88 @@
 		};
 		6EACC2D524A442BA003AE1DA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F519D803A58C8A0743C152B /* Pods-Runescape 3 ToolsTests.debug.xcconfig */;
+			baseConfigurationReference = B714FD606473A08FD5D52E68 /* Pods-RuneScapeCombatLevelCalculatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Runescape 3 ToolsTests/Info.plist";
+				INFOPLIST_FILE = RuneScapeCombatLevelCalculatorTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Sophia.Runescape-3-ToolsTests";
+				PRODUCT_BUNDLE_IDENTIFIER = Sophia.RuneScapeCombatLevelCalculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runescape 3 Tools.app/Runescape 3 Tools";
 			};
 			name = Debug;
 		};
 		6EACC2D624A442BA003AE1DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C60855D03D03DB8310747036 /* Pods-Runescape 3 ToolsTests.release.xcconfig */;
+			baseConfigurationReference = 44C51AB6AC15206F6A8B0DA0 /* Pods-RuneScapeCombatLevelCalculatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Runescape 3 ToolsTests/Info.plist";
+				INFOPLIST_FILE = RuneScapeCombatLevelCalculatorTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Sophia.Runescape-3-ToolsTests";
+				PRODUCT_BUNDLE_IDENTIFIER = Sophia.RuneScapeCombatLevelCalculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runescape 3 Tools.app/Runescape 3 Tools";
 			};
 			name = Release;
 		};
 		6EACC2D824A442BA003AE1DA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13564797ED8DB459CD6FBB45 /* Pods-Runescape 3 Tools-Runescape 3 ToolsUITests.debug.xcconfig */;
+			baseConfigurationReference = B82AE433565205C7527FDACF /* Pods-RuneScapeCombatLevelCalculator-RuneScapeCombatLevelCalculatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Runescape 3 ToolsUITests/Info.plist";
+				INFOPLIST_FILE = RuneScapeCombatLevelCalculatorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Sophia.Runescape-3-ToolsUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = Sophia.RuneScapeCombatLevelCalculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Runescape 3 Tools";
+				TEST_TARGET_NAME = RuneScapeCombatLevelCalculator;
 			};
 			name = Debug;
 		};
 		6EACC2D924A442BA003AE1DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C076C4CC828E04C0F65D52B /* Pods-Runescape 3 Tools-Runescape 3 ToolsUITests.release.xcconfig */;
+			baseConfigurationReference = B9B59DA582C14BA83DF384D0 /* Pods-RuneScapeCombatLevelCalculator-RuneScapeCombatLevelCalculatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Runescape 3 ToolsUITests/Info.plist";
+				INFOPLIST_FILE = RuneScapeCombatLevelCalculatorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Sophia.Runescape-3-ToolsUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = Sophia.RuneScapeCombatLevelCalculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Runescape 3 Tools";
+				TEST_TARGET_NAME = RuneScapeCombatLevelCalculator;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6EACC2A224A442B8003AE1DA /* Build configuration list for PBXProject "Runescape Combat Level Calculator" */ = {
+		6EACC2A224A442B8003AE1DA /* Build configuration list for PBXProject "RuneScapeCombatLevelCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6EACC2CF24A442BA003AE1DA /* Debug */,
@@ -714,7 +725,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EACC2D124A442BA003AE1DA /* Build configuration list for PBXNativeTarget "Runescape 3 Tools" */ = {
+		6EACC2D124A442BA003AE1DA /* Build configuration list for PBXNativeTarget "RuneScapeCombatLevelCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6EACC2D224A442BA003AE1DA /* Debug */,
@@ -723,7 +734,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EACC2D424A442BA003AE1DA /* Build configuration list for PBXNativeTarget "Runescape 3 ToolsTests" */ = {
+		6EACC2D424A442BA003AE1DA /* Build configuration list for PBXNativeTarget "RuneScapeCombatLevelCalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6EACC2D524A442BA003AE1DA /* Debug */,
@@ -732,7 +743,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EACC2D724A442BA003AE1DA /* Build configuration list for PBXNativeTarget "Runescape 3 ToolsUITests" */ = {
+		6EACC2D724A442BA003AE1DA /* Build configuration list for PBXNativeTarget "RuneScapeCombatLevelCalculatorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6EACC2D824A442BA003AE1DA /* Debug */,

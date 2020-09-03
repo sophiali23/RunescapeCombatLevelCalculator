@@ -1,6 +1,6 @@
 //
 //  UIColor+Hex.swift
-//  Runescape 3 Tools
+//  RuneScapeCombatLevelCalculator
 //
 //  Created by Sophia Li on 2020-09-01.
 //  Copyright © 2020 Sophia Li. All rights reserved.
