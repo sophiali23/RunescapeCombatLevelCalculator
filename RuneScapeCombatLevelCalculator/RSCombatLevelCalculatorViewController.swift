@@ -155,16 +155,15 @@ class RSCombatLevelCalculatorViewController: UIViewController {
             summoningLevelTextField.isEnabled = true
             summoningLevelTextField.text = ""
             constitutionLabel.text = "Constitution Level:"
-            updateTheme()
         case 1:
             version = .OldSchool
             summoningLevelTextField.isEnabled = false
             summoningLevelTextField.text = "N/A"
             constitutionLabel.text = "Hitpoints Level:"
-            updateTheme()
         default:
             break
         }
+        updateTheme()
     }
     
     func updateTheme() {
